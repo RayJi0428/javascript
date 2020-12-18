@@ -1,9 +1,9 @@
 var audiosprite = require('audiosprite')
 
 var files = ['assets/fg.mp3']
-
+var result = 'audiosprite_stereo'
 var opts = {};
-opts.output = 'assets/audiosprite';       //Name for the output files.                                               [default: "output"]
+opts.output = 'assets/' + result;         //Name for the output files.                                               [default: "output"]
 opts.path = '';                           //Path for files to be used on final JSON.                                 [default: ""]
 opts.export = "ogg,mp3";                  //Limit exported file types. Comma separated extension list.               [default: "ogg,m4a,mp3,ac3"]
 opts.format = "howler";                   //Format of the output JSON file (jukebox, howler, createjs).              [default: "jukebox"]
